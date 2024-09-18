@@ -1,0 +1,60 @@
+/* Añade esto a tu archivo CSS */
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+#controls {
+  margin: 20px 0;
+}
+
+#controls select,
+#controls button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#gameInfo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#gameInfo div {
+  margin: 0 20px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+
+#gameBoard {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#gameBoard td {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #333;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.x {
+  color: blue;
+}
+
+.o {
+  color: red;
+}
